@@ -1,6 +1,15 @@
 html{
-    cursor: url(imagens/mata_mosquito.png) 30 30 auto;
+    cursor: url(../imagens/mata_mosquito.png);
 }
+
+
+body{
+    background: url(../imagens/fundo.jpg); 
+    /* background-size: 100%; */
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+
+}    
 
 .mosquito1{
     width: 50px;
@@ -46,3 +55,10 @@ html{
     font-size: 20px;
     font-weight: bold;
 }
+
+@media (min-width: 1271px) { 
+    body{
+        background-position: center center;
+        background-size: 100%;
+    }
+  }
